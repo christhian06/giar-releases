@@ -21,7 +21,7 @@ Não crie releases à mão com tags fora desse padrão: elas são ignoradas.
 
 ## Segredos (nos repositórios de código)
 
-`RELEASES_TOKEN` (PAT com *Contents: write* neste repositório), `CONFIG_REPO_TOKEN` (leitura do giar-config, usado pelo firmware),
+`RELEASES_TOKEN` (PAT *fine-grained* com *Contents: write* só neste repositório; único segredo que precisa ser criado à mão), `CONFIG_DEPLOY_KEY` (chave de deploy somente leitura do giar-config, usada pelo firmware),
 `GIAR_FW_SIGNING_KEY` (chave privada Ed25519 de assinatura do firmware, base64), e as do keystore Android
 (`ANDROID_KEYSTORE_B64`, `ANDROID_KEYSTORE_PASSWORD`, `ANDROID_KEY_ALIAS`, `ANDROID_KEY_PASSWORD`).
 
