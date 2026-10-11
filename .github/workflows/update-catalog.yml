@@ -1,0 +1,33 @@
+# Regenera docs/catalog.json sempre que uma release é publicada/editada/apagada.
+# O GitHub Pages serve docs/ — o catálogo fica em
+# https://christhian06.github.io/giar-releases/catalog.json
+name: Atualizar catálogo
+on:
+  release:
+    types: [published, edited, deleted, released, prereleased]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: catalog
+  cancel-in-progress: false
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Gerar catálogo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python tools/build_catalog.py --repo "${{ github.repository }}"
+      - name: Publicar se mudou
+        run: |
+          # "updated" muda sempre; só commita se algo além dele mudou.
+          git diff --quiet -I'"updated"' docs/catalog.json && { echo "sem mudanças"; exit 0; }
+          git config user.name "giar-releases-bot"
+          git config user.email "contato@giartech.com"
+          git add docs/catalog.json
+          git commit -m "catálogo: atualização automática"
+          git push

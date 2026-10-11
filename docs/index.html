@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GIAR | Downloads</title>
+<style>
+:root{--bg:#0b1220;--card:#131e30;--line:rgba(255,255,255,.1);--text:#e7eefc;--muted:#a9b6d3;--info:#4aa3ff;--ok:#3ddc84}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 system-ui,Segoe UI,sans-serif}
+main{max-width:760px;margin:0 auto;padding:28px 18px 60px}h1{font-size:26px;margin:0 0 4px}.sub{color:var(--muted);margin:0 0 24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-bottom:14px}
+.card h2{font-size:16px;margin:0 0 4px}.meta{color:var(--muted);font-size:13px;margin:0 0 12px}
+a.btn{display:inline-block;background:var(--info);color:#06101f;font-weight:700;text-decoration:none;border-radius:10px;padding:10px 16px}
+.row{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+.row:first-of-type{border-top:0}code{font-size:11px;color:var(--muted);word-break:break-all}
+details{color:var(--muted);font-size:13px;margin-top:10px}ol{padding-left:20px;line-height:1.8;color:var(--text)}
+.err{color:#ff8a8c}
+</style>
+</head>
+<body>
+<main>
+  <h1>Downloads GIAR</h1>
+  <p class="sub">Gestão Inteligente de Ativos de Refrigeração — versões estáveis mais recentes.</p>
+  <div id="app">Carregando…</div>
+  <noscript><p><a href="https://github.com/christhian06/giar-releases/releases">Ver todas as versões</a></p></noscript>
+</main>
+<script>
+const fmt=b=>b>1048576?(b/1048576).toFixed(1)+' MB':Math.round(b/1024)+' KB';
+const dt=s=>s?new Date(s).toLocaleDateString('pt-BR'):'';
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function card(title,e,how,extra=''){
+  if(!e)return `<div class="card"><h2>${title}</h2><p class="meta">Ainda não disponível.</p></div>`;
+  return `<div class="card"><h2>${title}</h2>
+  <p class="meta">Versão ${esc(e.version)} · ${fmt(e.size)} · ${dt(e.released)}</p>
+  <a class="btn" href="${esc(e.url)}">Baixar</a>
+  <details><summary>Instalação e verificação</summary>${how}<p>SHA-256:<br><code>${esc(e.sha256)}</code></p>${extra}</details></div>`;
+}
+fetch('catalog.json',{cache:'no-store'}).then(r=>r.json()).then(c=>{
+  const s=c.channels.stable||{};
+  const fw=Object.entries(s.firmware||{}).map(([env,e])=>
+    `<div class="row"><div><strong>${esc(e.model||env)}</strong> — ${esc(e.variant==='usb'?'somente USB':'com bateria')}<br>
+     <span class="meta">v${esc(e.version)} · ${esc(e.chip||'')} · ${dt(e.released)}</span></div>
+     <a class="btn" href="${esc(e.url)}">Baixar</a></div>`).join('');
+  document.getElementById('app').innerHTML=
+   card('Aplicativo para Windows',s.windows,'<ol><li>Execute o instalador.</li><li>Se o Windows avisar “editor desconhecido”, escolha <strong>Mais informações → Executar assim mesmo</strong>.</li></ol>')+
+   card('Aplicativo para Android (.apk)',s.android,'<ol><li>Toque em Baixar e abra o arquivo.</li><li>Se o Android bloquear, toque em <strong>Configurações</strong> e ative <strong>“Permitir desta fonte”</strong>.</li><li>Volte e toque em <strong>Instalar</strong>.</li></ol>')+
+   `<div class="card"><h2>Firmware dos sensores</h2><p class="meta">Normalmente o aplicativo para Windows baixa o firmware certo sozinho (Configurações → Atualizar firmware).</p>${fw||'<p class="meta">Ainda não disponível.</p>'}</div>`+
+   `<p class="meta">Catálogo atualizado em ${dt(c.updated)}.</p>`;
+}).catch(()=>{document.getElementById('app').innerHTML='<p class="err">Não foi possível carregar os downloads agora. <a href="https://github.com/christhian06/giar-releases/releases">Ver todas as versões</a></p>'});
+</script>
+</body>
+</html>
