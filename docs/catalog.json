@@ -1,1 +1,18 @@
-{"schema":1,"updated":"","channels":{"stable":{},"beta":{}}}
+{
+  "schema": 1,
+  "updated": "2026-10-11T13:53:35Z",
+  "channels": {
+    "stable": {},
+    "beta": {
+      "android": {
+        "version": "1.0.0",
+        "released": "2026-10-11T13:53:27Z",
+        "notes": "App Android 1.0.0 (origem: christhian06/giar-config@1a0c23f95a2175294afd99553a3edfce87fa7e24)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.0",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.0/GIAR-1.0.0.apk",
+        "size": 37430839,
+        "sha256": "161c750cf6bc4a57a3e97953cdf65b2ada3ec0eef99bbf63a3362b24f2989908"
+      }
+    }
+  }
+}
