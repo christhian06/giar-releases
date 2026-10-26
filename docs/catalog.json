@@ -1,8 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-10-26T11:12:45Z",
+  "updated": "2026-10-26T17:32:09Z",
   "channels": {
     "stable": {
+      "windows": {
+        "version": "1.0.1",
+        "released": "2026-10-26T17:31:58Z",
+        "notes": "App Windows 1.0.1 (origem: christhian06/giar-config@0edfea006d51c06683a13496b9265e005326b0f8)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.1",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.1/GIAR-Setup-1.0.1.exe",
+        "size": 22700160,
+        "sha256": "d433a278c57eafbe23a200357a56d0fc72360a05afd5539c07721ef06b5cd1ba"
+      },
       "firmware": {
         "esp32c3_v4_temp": {
           "version": "4.4.0",
