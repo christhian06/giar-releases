@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-26T17:32:09Z",
+  "updated": "2026-10-26T17:38:01Z",
   "channels": {
     "stable": {
       "windows": {
@@ -11,6 +11,15 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.1/GIAR-Setup-1.0.1.exe",
         "size": 22700160,
         "sha256": "d433a278c57eafbe23a200357a56d0fc72360a05afd5539c07721ef06b5cd1ba"
+      },
+      "android": {
+        "version": "1.0.1",
+        "released": "2026-10-26T17:37:49Z",
+        "notes": "App Android 1.0.1 (origem: christhian06/giar-config@0edfea006d51c06683a13496b9265e005326b0f8)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.1",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.1/GIAR-1.0.1.apk",
+        "size": 37453744,
+        "sha256": "3328c64fd0457e1556c213d27e07b7819e5f8b219fad4c3498cc4a19c61acc7e"
       },
       "firmware": {
         "esp32c3_v4_temp": {
