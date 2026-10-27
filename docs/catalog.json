@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-27T18:46:01Z",
+  "updated": "2026-10-27T18:47:14Z",
   "channels": {
     "stable": {
       "windows": {
@@ -30,13 +30,13 @@
         }
       },
       "android": {
-        "version": "1.0.7",
-        "released": "2026-10-27T18:16:05Z",
-        "notes": "App Android 1.0.7 (origem: christhian06/giar-config@b9983891cf02ebf956a9c1d7cee5fc2684aa9566)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.7",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.7/GIAR-1.0.7.apk",
-        "size": 37487582,
-        "sha256": "f38e69e0cdda9b1bc29babb80ff378fa9b94041d242e5a2293b0d9db09b71ce7"
+        "version": "1.0.8",
+        "released": "2026-10-27T18:47:00Z",
+        "notes": "App Android 1.0.8 (origem: christhian06/giar-config@c58a7f18ed0cf7f61770889bce911f8846017245)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.8",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.8/GIAR-1.0.8.apk",
+        "size": 37494316,
+        "sha256": "ba443fabc50156e1a1f9381941198467f0c261dc891b64e376b5299780ca39e9"
       }
     },
     "beta": {
