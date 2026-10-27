@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated": "2026-10-27T18:16:18Z",
+  "updated": "2026-10-27T18:46:01Z",
   "channels": {
     "stable": {
       "windows": {
-        "version": "1.0.7",
-        "released": "2026-10-27T18:13:22Z",
-        "notes": "App Windows 1.0.7 (origem: christhian06/giar-config@b9983891cf02ebf956a9c1d7cee5fc2684aa9566)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.7",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.7/GIAR-Setup-1.0.7.exe",
-        "size": 22750861,
-        "sha256": "20b3aa0befdbbcc3400d6d416f5e4357e3f217fedaa9c84999ee980d99d2ed27"
+        "version": "1.0.8",
+        "released": "2026-10-27T18:45:51Z",
+        "notes": "App Windows 1.0.8 (origem: christhian06/giar-config@c58a7f18ed0cf7f61770889bce911f8846017245)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.8",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.8/GIAR-Setup-1.0.8.exe",
+        "size": 22750824,
+        "sha256": "8bc4f0cfadd3be77d9b4e974d9e721ddf72aac4794c1b904ff6f6af3b7dfba56"
       },
       "firmware": {
         "esp32c3_v4_temp": {
