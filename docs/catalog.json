@@ -1,8 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-10-30T17:42:30Z",
+  "updated": "2026-10-30T17:46:05Z",
   "channels": {
     "stable": {
+      "android": {
+        "version": "1.0.16",
+        "released": "2026-10-30T17:45:55Z",
+        "notes": "App Android 1.0.16 (origem: christhian06/giar-config@d81b1743cc1e43d676f08abf1e3917c7a65ef8bb)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.16",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.16/GIAR-1.0.16.apk",
+        "size": 37711335,
+        "sha256": "e3856f1d3dc1745671591f68f186c064671eb3f1164a2ccfd4e2a7f5e57e42a4"
+      },
       "windows": {
         "version": "1.0.16",
         "released": "2026-10-30T17:41:28Z",
@@ -11,15 +20,6 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.16/GIAR-Setup-1.0.16.exe",
         "size": 22810255,
         "sha256": "06d971b3e631a1eafb7fea1d67db5a457191690b30304caed35feb710c20647f"
-      },
-      "android": {
-        "version": "1.0.15",
-        "released": "2026-10-29T22:30:34Z",
-        "notes": "App Android 1.0.15 (origem: christhian06/giar-config@3e45e7f28bd032b5e727941d5832bd9ecdbd170c)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.15",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.15/GIAR-1.0.15.apk",
-        "size": 37608063,
-        "sha256": "f86bd72b111181bb36d752f1ca7168c73fce7be9820cee5077a495e265dc9f5e"
       },
       "firmware": {
         "esp32c3_v4_temp": {
