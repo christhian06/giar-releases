@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-01T21:24:19Z",
+  "updated": "2026-11-01T21:27:12Z",
   "channels": {
     "stable": {
       "windows": {
@@ -11,6 +11,15 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.22/GIAR-Setup-1.0.22.exe",
         "size": 22852797,
         "sha256": "2cf62ef64f06d05b29998b312e68e3d0000d24c8c3e719d8d9d18c988cf56f93"
+      },
+      "android": {
+        "version": "1.0.22",
+        "released": "2026-11-01T21:27:03Z",
+        "notes": "App Android 1.0.22 (origem: christhian06/giar-config@32fe35a743189d268421adc57e60e013490d2d0f)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.22",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.22/GIAR-1.0.22.apk",
+        "size": 37944712,
+        "sha256": "ea0093abe84b41b01cad520bd4a3e28e7bc684ea919623f691d4aa01a63bf761"
       },
       "firmware": {
         "esp32c3_v4_temp": {
@@ -28,15 +37,6 @@
           "signing_key_id": "giar-2026-1",
           "signed": true
         }
-      },
-      "android": {
-        "version": "1.0.21",
-        "released": "2026-10-31T14:48:23Z",
-        "notes": "App Android 1.0.21 (origem: christhian06/giar-config@bdcc331aa91bfe29be271f4512043e3a4cb6a686)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.21",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.21/GIAR-1.0.21.apk",
-        "size": 37951161,
-        "sha256": "a1208d7ddd07f8c5cfd2c3759fc384d164eb484407f19f57107bec5eda893501"
       }
     },
     "beta": {
