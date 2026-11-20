@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T19:51:06Z",
+  "updated": "2026-11-20T19:57:39Z",
   "channels": {
     "stable": {
       "windows": {
@@ -11,6 +11,15 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.25/GIAR-Setup-1.0.25.exe",
         "size": 23066117,
         "sha256": "b4d0ed13d0ee3715e35ffc2133777fa718985f533676fc8d04a7beae77719fe8"
+      },
+      "android": {
+        "version": "1.0.25",
+        "released": "2026-11-20T19:57:25Z",
+        "notes": "App Android 1.0.25 (origem: christhian06/giar-config@b2a15f83232291436280efd86ab2990fbfedb7fa)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.25",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.25/GIAR-1.0.25.apk",
+        "size": 38819598,
+        "sha256": "d98c27c70be95d2761d0072be8745a0345edf10656373ef01d0445b1f7abd914"
       },
       "firmware": {
         "esp32c3_v4_temp": {
@@ -28,15 +37,6 @@
           "signing_key_id": "giar-2026-1",
           "signed": true
         }
-      },
-      "android": {
-        "version": "1.0.24",
-        "released": "2026-11-15T21:50:45Z",
-        "notes": "App Android 1.0.24 (origem: christhian06/giar-config@ca962be32c9d7d30ae593dd2f15741b080e537c1)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.24",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.24/GIAR-1.0.24.apk",
-        "size": 38810337,
-        "sha256": "6cd52becfa7522451a4b55e57021aeef7f0144cb238de1ab8725d9ad09c7e3bc"
       }
     },
     "beta": {
