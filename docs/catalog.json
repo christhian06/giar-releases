@@ -1,8 +1,25 @@
 {
   "schema": 1,
-  "updated": "2026-11-15T21:50:56Z",
+  "updated": "2026-11-20T19:44:35Z",
   "channels": {
     "stable": {
+      "firmware": {
+        "esp32c3_v4_temp": {
+          "version": "4.8.0",
+          "released": "2026-11-20T19:44:12Z",
+          "notes": "Firmware 4.8.0 (battery). Origem: christhian06/giar-firmware@a1908ab49b96154308952e67664378059c7e4097. Teste em unidade de bancada antes de distribuir em lote.",
+          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.8.0",
+          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.8.0/giar-v4_temp-4.8.0.giarfw",
+          "size": 758960,
+          "sha256": "9dda6a69408108ac59614f385de3a574997eb1562dca58521af2f10a9d80a61e",
+          "model": "GIAR Sensor de Temperatura",
+          "variant": "battery",
+          "chip": "esp32c3",
+          "platformio_env": "esp32c3_v4_temp",
+          "signing_key_id": "giar-2026-1",
+          "signed": true
+        }
+      },
       "android": {
         "version": "1.0.24",
         "released": "2026-11-15T21:50:45Z",
@@ -20,23 +37,6 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.24/GIAR-Setup-1.0.24.exe",
         "size": 23052468,
         "sha256": "d4f0ebf6c76c8266a6688013dfe675b22cb08d8f59a180e001b121ebb7d43a73"
-      },
-      "firmware": {
-        "esp32c3_v4_temp": {
-          "version": "4.7.1",
-          "released": "2026-11-02T14:29:00Z",
-          "notes": "Firmware 4.7.1 (battery). Origem: christhian06/giar-firmware@b353937eebfd7d08fdab0f584e10eb2b80f2d070. Teste em unidade de bancada antes de distribuir em lote.",
-          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.7.1",
-          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.7.1/giar-v4_temp-4.7.1.giarfw",
-          "size": 756006,
-          "sha256": "fda0e827eed72fb1b1496859bebb2fde5dbea6eb354d0afa595bb602c9cd2ec1",
-          "model": "GIAR Sensor de Temperatura",
-          "variant": "battery",
-          "chip": "esp32c3",
-          "platformio_env": "esp32c3_v4_temp",
-          "signing_key_id": "giar-2026-1",
-          "signed": true
-        }
       }
     },
     "beta": {
