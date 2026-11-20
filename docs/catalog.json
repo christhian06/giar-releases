@@ -1,8 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-11-20T19:44:35Z",
+  "updated": "2026-11-20T19:51:06Z",
   "channels": {
     "stable": {
+      "windows": {
+        "version": "1.0.25",
+        "released": "2026-11-20T19:50:52Z",
+        "notes": "App Windows 1.0.25 (origem: christhian06/giar-config@b2a15f83232291436280efd86ab2990fbfedb7fa)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.25",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.25/GIAR-Setup-1.0.25.exe",
+        "size": 23066117,
+        "sha256": "b4d0ed13d0ee3715e35ffc2133777fa718985f533676fc8d04a7beae77719fe8"
+      },
       "firmware": {
         "esp32c3_v4_temp": {
           "version": "4.8.0",
@@ -28,15 +37,6 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.24/GIAR-1.0.24.apk",
         "size": 38810337,
         "sha256": "6cd52becfa7522451a4b55e57021aeef7f0144cb238de1ab8725d9ad09c7e3bc"
-      },
-      "windows": {
-        "version": "1.0.24",
-        "released": "2026-11-15T21:50:07Z",
-        "notes": "App Windows 1.0.24 (origem: christhian06/giar-config@ca962be32c9d7d30ae593dd2f15741b080e537c1)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.24",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.24/GIAR-Setup-1.0.24.exe",
-        "size": 23052468,
-        "sha256": "d4f0ebf6c76c8266a6688013dfe675b22cb08d8f59a180e001b121ebb7d43a73"
       }
     },
     "beta": {
