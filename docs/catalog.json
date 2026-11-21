@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T16:49:58Z",
+  "updated": "2026-11-21T16:53:41Z",
   "channels": {
     "stable": {
       "windows": {
@@ -30,13 +30,13 @@
         }
       },
       "android": {
-        "version": "1.0.34",
-        "released": "2026-11-21T16:29:05Z",
-        "notes": "App Android 1.0.34 (origem: christhian06/giar-config@2eb863a31ba00ec8a24ba5f1022da588a9ec0e19)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.34",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.34/GIAR-1.0.34.apk",
-        "size": 39034020,
-        "sha256": "38aeeb175ce0fecbf71e70c926b279cbe4d2174efd8e81f5fe623cdcf8b058f7"
+        "version": "1.0.35",
+        "released": "2026-11-21T16:53:28Z",
+        "notes": "App Android 1.0.35 (origem: christhian06/giar-config@71acb65a54b4c46dc65bf790e80ea04a1b4d280d)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.35",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.35/GIAR-1.0.35.apk",
+        "size": 39034788,
+        "sha256": "4b65c3f8f30e7549a314479cdad3f7da24306b98812344f8776cbd3fbd560fba"
       }
     },
     "beta": {
