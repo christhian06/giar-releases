@@ -1,8 +1,17 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T00:48:03Z",
+  "updated": "2026-11-21T00:54:33Z",
   "channels": {
     "stable": {
+      "android": {
+        "version": "1.0.28",
+        "released": "2026-11-21T00:54:22Z",
+        "notes": "App Android 1.0.28 (origem: christhian06/giar-config@f6fb5b8170ab0a855b6f321397b72bddf8f75ede)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.28",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.28/GIAR-1.0.28.apk",
+        "size": 38947492,
+        "sha256": "f495601c63584f463b146495a7d2110fed8f5a73f486f635932f4ab58edcd38d"
+      },
       "windows": {
         "version": "1.0.28",
         "released": "2026-11-21T00:47:37Z",
@@ -11,15 +20,6 @@
         "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.28/GIAR-Setup-1.0.28.exe",
         "size": 23130560,
         "sha256": "dea12b5f0ff43afc7d722b02b3577d9810a7f1c35a0731f39252fe272ec612c3"
-      },
-      "android": {
-        "version": "1.0.27",
-        "released": "2026-11-20T23:48:43Z",
-        "notes": "App Android 1.0.27 (origem: christhian06/giar-config@b15b64f9ba899ae3d339305859dd896aa0e35ef7)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.27",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.27/GIAR-1.0.27.apk",
-        "size": 38947748,
-        "sha256": "0e9492e5b327b5f519c1dcb8c1e7eea4149b633bd2bdc6808124204803f72d74"
       },
       "firmware": {
         "esp32c3_v4_temp": {
