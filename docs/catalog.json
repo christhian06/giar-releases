@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T11:29:05Z",
+  "updated": "2026-11-21T11:33:48Z",
   "channels": {
     "stable": {
       "windows": {
@@ -13,13 +13,13 @@
         "sha256": "ac2649c0b4e693cae8f8224f62d9076acb5e9af73e6141d548151f20bdcf2306"
       },
       "android": {
-        "version": "1.0.29",
-        "released": "2026-11-21T10:07:25Z",
-        "notes": "App Android 1.0.29 (origem: christhian06/giar-config@ffc262696704d7574bc30a7f65030249f6375f80)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.29",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.29/GIAR-1.0.29.apk",
-        "size": 38992835,
-        "sha256": "c42a8759ee2d815b05456772f57bb673c16bfe5ac2a908c7cf061fe151c7bafb"
+        "version": "1.0.30",
+        "released": "2026-11-21T11:33:32Z",
+        "notes": "App Android 1.0.30 (origem: christhian06/giar-config@fffaf4c6aa54ddb7b1feff22990ed9325d74f924)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.30",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.30/GIAR-1.0.30.apk",
+        "size": 38977753,
+        "sha256": "e591c0d152de119ce8bc1af30e18d43d1bef434465cb17a100c46538d02bfbd3"
       },
       "firmware": {
         "esp32c3_v4_temp": {
