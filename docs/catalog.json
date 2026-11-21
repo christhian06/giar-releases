@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T10:07:35Z",
+  "updated": "2026-11-21T11:22:10Z",
   "channels": {
     "stable": {
       "windows": {
@@ -42,13 +42,13 @@
     "beta": {
       "firmware": {
         "esp32c3_v4_temp": {
-          "version": "4.9.0",
-          "released": "2026-11-20T23:39:04Z",
-          "notes": "Firmware 4.9.0 (battery). Origem: christhian06/giar-firmware@13f62b041b453739a03f31f10ec3a9654675274f. Teste em unidade de bancada antes de distribuir em lote.",
-          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.9.0",
-          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.9.0/giar-v4_temp-4.9.0.giarfw",
-          "size": 760435,
-          "sha256": "69b2538a5d7ba96ae828839d84cf6e1c42449006d906a9825d3113d2e95155bc",
+          "version": "4.10.0",
+          "released": "2026-11-21T11:22:01Z",
+          "notes": "Firmware 4.10.0 (battery). Origem: christhian06/giar-firmware@6ea59a1ac55400a74aafaf634702e8f8ad11e6fb. Teste em unidade de bancada antes de distribuir em lote.",
+          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.10.0",
+          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.10.0/giar-v4_temp-4.10.0.giarfw",
+          "size": 762950,
+          "sha256": "5093471b74cc381602f54ff824943be39103ef98b5c8cd95b343768a315c0d87",
           "model": "GIAR Sensor de Temperatura",
           "variant": "battery",
           "chip": "esp32c3",
