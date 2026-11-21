@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T16:49:18Z",
+  "updated": "2026-11-21T16:49:58Z",
   "channels": {
     "stable": {
       "windows": {
@@ -12,34 +12,6 @@
         "size": 23151506,
         "sha256": "f85acf71165a3271d74d2dd164a53eae4e7c5bf1134760f833f2aa35ffa50509"
       },
-      "android": {
-        "version": "1.0.34",
-        "released": "2026-11-21T16:29:05Z",
-        "notes": "App Android 1.0.34 (origem: christhian06/giar-config@2eb863a31ba00ec8a24ba5f1022da588a9ec0e19)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.34",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.34/GIAR-1.0.34.apk",
-        "size": 39034020,
-        "sha256": "38aeeb175ce0fecbf71e70c926b279cbe4d2174efd8e81f5fe623cdcf8b058f7"
-      },
-      "firmware": {
-        "esp32c3_v4_temp": {
-          "version": "4.8.0",
-          "released": "2026-11-20T19:44:12Z",
-          "notes": "Firmware 4.8.0 (battery). Origem: christhian06/giar-firmware@a1908ab49b96154308952e67664378059c7e4097. Teste em unidade de bancada antes de distribuir em lote.",
-          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.8.0",
-          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.8.0/giar-v4_temp-4.8.0.giarfw",
-          "size": 758960,
-          "sha256": "9dda6a69408108ac59614f385de3a574997eb1562dca58521af2f10a9d80a61e",
-          "model": "GIAR Sensor de Temperatura",
-          "variant": "battery",
-          "chip": "esp32c3",
-          "platformio_env": "esp32c3_v4_temp",
-          "signing_key_id": "giar-2026-1",
-          "signed": true
-        }
-      }
-    },
-    "beta": {
       "firmware": {
         "esp32c3_v4_temp": {
           "version": "4.11.0",
@@ -49,6 +21,34 @@
           "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.11.0/giar-v4_temp-4.11.0.giarfw",
           "size": 763300,
           "sha256": "c206c2f19df3961193e71cdc9a817112d7b5b9eb5909a58cd62b25fa1cf61951",
+          "model": "GIAR Sensor de Temperatura",
+          "variant": "battery",
+          "chip": "esp32c3",
+          "platformio_env": "esp32c3_v4_temp",
+          "signing_key_id": "giar-2026-1",
+          "signed": true
+        }
+      },
+      "android": {
+        "version": "1.0.34",
+        "released": "2026-11-21T16:29:05Z",
+        "notes": "App Android 1.0.34 (origem: christhian06/giar-config@2eb863a31ba00ec8a24ba5f1022da588a9ec0e19)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/android-v1.0.34",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/android-v1.0.34/GIAR-1.0.34.apk",
+        "size": 39034020,
+        "sha256": "38aeeb175ce0fecbf71e70c926b279cbe4d2174efd8e81f5fe623cdcf8b058f7"
+      }
+    },
+    "beta": {
+      "firmware": {
+        "esp32c3_v4_temp": {
+          "version": "4.10.0",
+          "released": "2026-11-21T11:22:01Z",
+          "notes": "Firmware 4.10.0 (battery). Origem: christhian06/giar-firmware@6ea59a1ac55400a74aafaf634702e8f8ad11e6fb. Teste em unidade de bancada antes de distribuir em lote.",
+          "release_url": "https://github.com/christhian06/giar-releases/releases/tag/firmware-esp32c3_v4_temp-v4.10.0",
+          "url": "https://github.com/christhian06/giar-releases/releases/download/firmware-esp32c3_v4_temp-v4.10.0/giar-v4_temp-4.10.0.giarfw",
+          "size": 762950,
+          "sha256": "5093471b74cc381602f54ff824943be39103ef98b5c8cd95b343768a315c0d87",
           "model": "GIAR Sensor de Temperatura",
           "variant": "battery",
           "chip": "esp32c3",
