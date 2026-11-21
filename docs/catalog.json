@@ -1,16 +1,16 @@
 {
   "schema": 1,
-  "updated": "2026-11-21T13:55:48Z",
+  "updated": "2026-11-21T14:00:48Z",
   "channels": {
     "stable": {
       "windows": {
-        "version": "1.0.31",
-        "released": "2026-11-21T12:57:36Z",
-        "notes": "App Windows 1.0.31 (origem: christhian06/giar-config@1d12f0b160e725d94c6e5deed8ee75c8aa493b37)",
-        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.31",
-        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.31/GIAR-Setup-1.0.31.exe",
-        "size": 23140030,
-        "sha256": "7c5155f6919f852a0747adfbbb2aef8949d3e997ee6a4a95cb6e874fe454c722"
+        "version": "1.0.32",
+        "released": "2026-11-21T14:00:34Z",
+        "notes": "App Windows 1.0.32 (origem: christhian06/giar-config@34b90e3950d6f7a7f7e848a25f5bf881e17d5988)",
+        "release_url": "https://github.com/christhian06/giar-releases/releases/tag/windows-v1.0.32",
+        "url": "https://github.com/christhian06/giar-releases/releases/download/windows-v1.0.32/GIAR-Setup-1.0.32.exe",
+        "size": 23141181,
+        "sha256": "bffa0edb2487bd8a45eb1420e9e373f465cdf25ce76a613f4487fb78b66b9847"
       },
       "android": {
         "version": "1.0.31",
